@@ -1,0 +1,11 @@
+body {
+    background:black;
+    font-family:arial, helvetica, sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+}
