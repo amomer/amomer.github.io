@@ -1,24 +1,40 @@
 body {
     background:black;
-    font
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .assignment{
     display:flex;
     padding:10px;
     margin:10px;
-    
+    background:navy;
+    border-radius: 10px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:3px solid #2E4B73;
+}
+
+.assignment img:hover {
+border:4px dashed #F1AEA5
 }
 
 h1{
-    color: white;
+    color: #F4F4F4;
     text-align: center;
 }
+
 p{
-    color: white;
+    color: #F4F4F4;
+}
+
+a {
+    text-decoration:none;
+    color:#4596A8
+}
+
+a:hover {
+    color:#F1AEA5;
 }
